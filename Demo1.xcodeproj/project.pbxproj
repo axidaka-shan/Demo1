@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002AF30B2A151427008CE342 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AF3092A151427008CE342 /* ButtonDemoView.swift */; };
+		002AF30C2A151427008CE342 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AF30A2A151427008CE342 /* RoundButton.swift */; };
+		002AF30F2A152239008CE342 /* TupleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AF30E2A152239008CE342 /* TupleDemoView.swift */; };
 		5B6E84A2248A4B3800F1648C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E84A1248A4B3800F1648C /* AppDelegate.swift */; };
 		5B6E84A4248A4B3800F1648C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E84A3248A4B3800F1648C /* SceneDelegate.swift */; };
 		5B6E84A6248A4B3800F1648C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E84A5248A4B3800F1648C /* ContentView.swift */; };
@@ -109,6 +112,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		002AF3092A151427008CE342 /* ButtonDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDemoView.swift; sourceTree = "<group>"; };
+		002AF30A2A151427008CE342 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		002AF30E2A152239008CE342 /* TupleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleDemoView.swift; sourceTree = "<group>"; };
 		5B6E849E248A4B3800F1648C /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6E84A1248A4B3800F1648C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6E84A3248A4B3800F1648C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -231,6 +237,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002AF3082A151427008CE342 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				002AF3092A151427008CE342 /* ButtonDemoView.swift */,
+				002AF30A2A151427008CE342 /* RoundButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		002AF30D2A152206008CE342 /* TupleView */ = {
+			isa = PBXGroup;
+			children = (
+				002AF30E2A152239008CE342 /* TupleDemoView.swift */,
+			);
+			path = TupleView;
+			sourceTree = "<group>";
+		};
 		5B6E8495248A4B3800F1648C = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +275,7 @@
 		5B6E84A0248A4B3800F1648C /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				002AF30D2A152206008CE342 /* TupleView */,
 				69247FE32A137F7B00FCD498 /* Environment */,
 				69247FDB2A1374DC00FCD498 /* drag */,
 				69247FCB2A136BEA00FCD498 /* storage */,
@@ -675,6 +699,7 @@
 		69E44AF32A04DF8200A2B4A8 /* Demo1_tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				002AF3082A151427008CE342 /* Button */,
 				69247FE92A138CBB00FCD498 /* focus */,
 				69247FD82A1372C700FCD498 /* textFeild */,
 				69E44B3B2A088AB000A2B4A8 /* Login */,
@@ -813,6 +838,7 @@
 				6979E67C29BEF42F009BDB78 /* SheetDemoNextView.swift in Sources */,
 				69247FC42A13511F00FCD498 /* TextDemoView3.swift in Sources */,
 				694583E82A0E2B3E00DC4325 /* DismissableTextField.swift in Sources */,
+				002AF30F2A152239008CE342 /* TupleDemoView.swift in Sources */,
 				694F1BFB29D1983E00FDA383 /* NormalTextView.swift in Sources */,
 				699DCD8629CAE3510059C54E /* UIAlertControllerExtension.swift in Sources */,
 				699DCD8F29CAE9190059C54E /* ListDemoView.swift in Sources */,
@@ -899,8 +925,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002AF30C2A151427008CE342 /* RoundButton.swift in Sources */,
 				69E44B3D2A088AC800A2B4A8 /* LoginViewTV.swift in Sources */,
 				69E44AF72A04DF8200A2B4A8 /* ViewController.swift in Sources */,
+				002AF30B2A151427008CE342 /* ButtonDemoView.swift in Sources */,
 				69247FDA2A13734300FCD498 /* ContentView.swift in Sources */,
 				69E44B582A0A37D300A2B4A8 /* CustomButton.swift in Sources */,
 				69E44B052A04DFDF00A2B4A8 /* MoreViewTV.swift in Sources */,

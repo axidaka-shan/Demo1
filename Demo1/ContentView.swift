@@ -11,6 +11,9 @@ import SwiftUI
 struct ContentView: View {
   let destinations: [AnyView] = [
     
+    AnyView(TupleDemoView()),
+
+    
     AnyView(DragDemoView(title: "aadad")),
     AnyView(DragDemoView2()),
     AnyView(DragDemoView3()),
@@ -98,6 +101,8 @@ struct ContentView: View {
       ]
   
   let textArray: [String] = [
+    "TupleDemoView",
+    
     "DragDemoView",
     "DragDemoView2",
     "DragDemoView3",

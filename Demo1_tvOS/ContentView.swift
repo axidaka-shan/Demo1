@@ -10,6 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
   let destinations: [AnyView] = [
+    
+    AnyView(ButtonDemoView()),
 
     AnyView(FocusSectionDemoView()),
     
@@ -25,6 +27,9 @@ struct ContentView: View {
   ]
   
   let textArray: [String] = [
+    
+    "ButtonDemoView",
+    
     "FocusSectionDemoView",
     
     "FocusScopeDemoView",
