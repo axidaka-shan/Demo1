@@ -77,11 +77,29 @@ struct ButtonDemoView2: View {
               .background(Color.gray)
               .cornerRadius(10)
               .overlay(
-                RoundedRectangle(cornerRadius: 4)
+                RoundedRectangle(cornerRadius: 10)
                   .stroke(Color.red)
                   .foregroundColor(.clear)
               )
               .font(Font(UIFont.systemFont(ofSize: 17)))
+
+              Button {
+                
+              } label: {
+                Text("登录2")
+              }
+              .frame(maxWidth: .infinity)
+              .frame(height: 50)
+              .padding([.leading, .trailing], 20)
+              .background(Color.gray)
+              .cornerRadius(10)
+              .overlay(
+                RoundedRectangle(cornerRadius: 10)
+                  .stroke(Color.red)
+                  .foregroundColor(.clear)
+              )
+              .font(Font(UIFont.systemFont(ofSize: 17)))
+              .buttonStyle(CustomRemoveHighlightStyle())
 
             }
           }
@@ -110,4 +128,12 @@ struct CustomButtonStyle: ButtonStyle {
     }
 }
 
-
+struct CustomRemoveHighlightStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .foregroundColor(.white)
+            .padding()
+            .cornerRadius(10)
+//            .scaleEffect(configuration.isPressed ? 0.9 : 1.0) // 去掉高亮效果
+    }
+}

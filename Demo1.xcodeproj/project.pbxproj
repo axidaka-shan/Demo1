@@ -35,6 +35,7 @@
 		69247FE52A137F8D00FCD498 /* EnvironmentDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69247FE42A137F8C00FCD498 /* EnvironmentDemoView.swift */; };
 		69247FE82A13816200FCD498 /* FocusScopeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69247FE72A13816200FCD498 /* FocusScopeDemoView.swift */; };
 		69247FEC2A138D0600FCD498 /* FocusSectionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69247FEB2A138D0600FCD498 /* FocusSectionDemoView.swift */; };
+		692480022A1615D100FCD498 /* SafeAreaDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692480012A1615D100FCD498 /* SafeAreaDemoView.swift */; };
 		694583562A0CB63900DC4325 /* FrameDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694583552A0CB63900DC4325 /* FrameDemoView.swift */; };
 		694583D62A0E26A500DC4325 /* LoginDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694583D52A0E26A500DC4325 /* LoginDemoView.swift */; };
 		694583E22A0E2B3E00DC4325 /* KeybordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694583DA2A0E2B3E00DC4325 /* KeybordManager.swift */; };
@@ -142,6 +143,7 @@
 		69247FE42A137F8C00FCD498 /* EnvironmentDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentDemoView.swift; sourceTree = "<group>"; };
 		69247FE72A13816200FCD498 /* FocusScopeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusScopeDemoView.swift; sourceTree = "<group>"; };
 		69247FEB2A138D0600FCD498 /* FocusSectionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSectionDemoView.swift; sourceTree = "<group>"; };
+		692480012A1615D100FCD498 /* SafeAreaDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaDemoView.swift; sourceTree = "<group>"; };
 		694583552A0CB63900DC4325 /* FrameDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemoView.swift; sourceTree = "<group>"; };
 		694583D52A0E26A500DC4325 /* LoginDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoView.swift; sourceTree = "<group>"; };
 		694583DA2A0E2B3E00DC4325 /* KeybordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeybordManager.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				002AF30D2A152206008CE342 /* TupleView */,
+				692480002A1615A600FCD498 /* SafeArea */,
 				69247FE32A137F7B00FCD498 /* Environment */,
 				69247FDB2A1374DC00FCD498 /* drag */,
 				69247FCB2A136BEA00FCD498 /* storage */,
@@ -402,6 +405,14 @@
 				69247FEB2A138D0600FCD498 /* FocusSectionDemoView.swift */,
 			);
 			path = focusSection;
+			sourceTree = "<group>";
+		};
+		692480002A1615A600FCD498 /* SafeArea */ = {
+			isa = PBXGroup;
+			children = (
+				692480012A1615D100FCD498 /* SafeAreaDemoView.swift */,
+			);
+			path = SafeArea;
 			sourceTree = "<group>";
 		};
 		694583542A0CB61A00DC4325 /* frame */ = {
@@ -868,6 +879,7 @@
 				699DCD2B29C9735D0059C54E /* ScrollDemoView.swift in Sources */,
 				694F1BB229CDA76C00FDA383 /* HTMLTextView.swift in Sources */,
 				6979E67829BEF3CD009BDB78 /* PushDemoView.swift in Sources */,
+				692480022A1615D100FCD498 /* SafeAreaDemoView.swift in Sources */,
 				6948E4D729C475D000F24D43 /* StackDemo2View.swift in Sources */,
 				69244EE429DAAE21008A66F1 /* RefreshableList.swift in Sources */,
 				6948E50C29C8609F00F24D43 /* DatePickerDemo4View.swift in Sources */,
