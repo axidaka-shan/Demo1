@@ -1,1 +1,6 @@
 xcuserdata/
+
+/Demo1.xcodeproj/xcuserdata/*
+/Demo1.xcodeproj/project.xcworkspace/xcuserdata/*
+/Demo1.xcworkspace/xcuserdata/*
+/Demo1.xcworkspace/xcshareddata/*
