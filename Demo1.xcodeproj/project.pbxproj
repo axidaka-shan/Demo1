@@ -10,6 +10,7 @@
 		002AF30B2A151427008CE342 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AF3092A151427008CE342 /* ButtonDemoView.swift */; };
 		002AF30C2A151427008CE342 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AF30A2A151427008CE342 /* RoundButton.swift */; };
 		002AF30F2A152239008CE342 /* TupleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AF30E2A152239008CE342 /* TupleDemoView.swift */; };
+		00A12A342A1686020010D9C9 /* TextFeildDemoView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A12A332A1686020010D9C9 /* TextFeildDemoView2.swift */; };
 		5B6E84A2248A4B3800F1648C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E84A1248A4B3800F1648C /* AppDelegate.swift */; };
 		5B6E84A4248A4B3800F1648C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E84A3248A4B3800F1648C /* SceneDelegate.swift */; };
 		5B6E84A6248A4B3800F1648C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E84A5248A4B3800F1648C /* ContentView.swift */; };
@@ -116,6 +117,7 @@
 		002AF3092A151427008CE342 /* ButtonDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDemoView.swift; sourceTree = "<group>"; };
 		002AF30A2A151427008CE342 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		002AF30E2A152239008CE342 /* TupleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleDemoView.swift; sourceTree = "<group>"; };
+		00A12A332A1686020010D9C9 /* TextFeildDemoView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeildDemoView2.swift; sourceTree = "<group>"; };
 		5B6E849E248A4B3800F1648C /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6E84A1248A4B3800F1648C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6E84A3248A4B3800F1648C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -540,6 +542,7 @@
 			isa = PBXGroup;
 			children = (
 				694AF5D629E681F10059D095 /* TextFeildDemoView.swift */,
+				00A12A332A1686020010D9C9 /* TextFeildDemoView2.swift */,
 			);
 			path = textFeild;
 			sourceTree = "<group>";
@@ -928,6 +931,7 @@
 				694583E32A0E2B3E00DC4325 /* FormTextField.swift in Sources */,
 				69244EE129DAADDA008A66F1 /* ListDemoView5.swift in Sources */,
 				5B6E84A6248A4B3800F1648C /* ContentView.swift in Sources */,
+				00A12A342A1686020010D9C9 /* TextFeildDemoView2.swift in Sources */,
 				69BD4C062A0B8E0200AC33F0 /* ButtonDemoView2.swift in Sources */,
 				694F1B6129CD7D4A00FDA383 /* ImageDemoView.swift in Sources */,
 			);

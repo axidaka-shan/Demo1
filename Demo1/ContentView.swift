@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ContentView: View {
   let destinations: [AnyView] = [
     
@@ -38,7 +39,8 @@ struct ContentView: View {
     AnyView(ImageDemoView()),
     
     AnyView(TextFeildDemoView()),
-    
+    AnyView(TextFeildDemoView2()),
+
     AnyView(TextViewDemoView()),
     
     AnyView(StackDemoView()),
@@ -127,7 +129,8 @@ struct ContentView: View {
     "ImageDemoView",
     
     "TextFeildDemoView",
-    
+    "TextFeildDemoView2",
+
     "TextViewDemoView",
     
     "StackDemoView",

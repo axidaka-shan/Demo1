@@ -23,9 +23,12 @@ struct TextFeildDemoViewTV: View {
       VStack {
           TextField("Username", text: $username)
               .focused($focusedField, equals: .username)
+              .frame(height: 200)
           
           SecureField("Password", text: $password)
               .focused($focusedField, equals: .password)
+              .frame(height: 200)
+
       }
       .defaultFocus($focusedField, .password)
 
