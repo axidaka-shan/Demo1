@@ -37,6 +37,7 @@
 		69247FE82A13816200FCD498 /* FocusScopeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69247FE72A13816200FCD498 /* FocusScopeDemoView.swift */; };
 		69247FEC2A138D0600FCD498 /* FocusSectionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69247FEB2A138D0600FCD498 /* FocusSectionDemoView.swift */; };
 		692480022A1615D100FCD498 /* SafeAreaDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692480012A1615D100FCD498 /* SafeAreaDemoView.swift */; };
+		692480182A19616800FCD498 /* TextFeildDemoView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692480172A19616800FCD498 /* TextFeildDemoView3.swift */; };
 		694583562A0CB63900DC4325 /* FrameDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694583552A0CB63900DC4325 /* FrameDemoView.swift */; };
 		694583D62A0E26A500DC4325 /* LoginDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694583D52A0E26A500DC4325 /* LoginDemoView.swift */; };
 		694583E22A0E2B3E00DC4325 /* KeybordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694583DA2A0E2B3E00DC4325 /* KeybordManager.swift */; };
@@ -85,6 +86,11 @@
 		6979E67C29BEF42F009BDB78 /* SheetDemoNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979E67B29BEF42F009BDB78 /* SheetDemoNextView.swift */; };
 		6979E71829C06642009BDB78 /* TableDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979E71729C06642009BDB78 /* TableDemoView.swift */; };
 		6979E71B29C06738009BDB78 /* PushDemoView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6979E71A29C06738009BDB78 /* PushDemoView2.swift */; };
+		698CE3632A1CB02C00164C31 /* StackDemo3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3622A1CB02C00164C31 /* StackDemo3View.swift */; };
+		698CE3A32A205AC700164C31 /* ButtonDemoView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3A22A205AC700164C31 /* ButtonDemoView2.swift */; };
+		698CE3A52A20654300164C31 /* PosterViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3A42A20654300164C31 /* PosterViewButton.swift */; };
+		698CE3A72A206FFE00164C31 /* CustomCardButtonTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3A62A206FFE00164C31 /* CustomCardButtonTV.swift */; };
+		698CE3AB2A2087BD00164C31 /* CustomButtonTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3AA2A2087BD00164C31 /* CustomButtonTV.swift */; };
 		699DCD2B29C9735D0059C54E /* ScrollDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DCD2A29C9735D0059C54E /* ScrollDemoView.swift */; };
 		699DCD3C29C999EC0059C54E /* ChangeColorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DCD3B29C999EC0059C54E /* ChangeColorDemoView.swift */; };
 		699DCD7229CAB30E0059C54E /* AlertDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DCD7129CAB30E0059C54E /* AlertDemoView.swift */; };
@@ -146,6 +152,7 @@
 		69247FE72A13816200FCD498 /* FocusScopeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusScopeDemoView.swift; sourceTree = "<group>"; };
 		69247FEB2A138D0600FCD498 /* FocusSectionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSectionDemoView.swift; sourceTree = "<group>"; };
 		692480012A1615D100FCD498 /* SafeAreaDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaDemoView.swift; sourceTree = "<group>"; };
+		692480172A19616800FCD498 /* TextFeildDemoView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeildDemoView3.swift; sourceTree = "<group>"; };
 		694583552A0CB63900DC4325 /* FrameDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDemoView.swift; sourceTree = "<group>"; };
 		694583D52A0E26A500DC4325 /* LoginDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoView.swift; sourceTree = "<group>"; };
 		694583DA2A0E2B3E00DC4325 /* KeybordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeybordManager.swift; sourceTree = "<group>"; };
@@ -194,6 +201,11 @@
 		6979E67B29BEF42F009BDB78 /* SheetDemoNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDemoNextView.swift; sourceTree = "<group>"; };
 		6979E71729C06642009BDB78 /* TableDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDemoView.swift; sourceTree = "<group>"; };
 		6979E71A29C06738009BDB78 /* PushDemoView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDemoView2.swift; sourceTree = "<group>"; };
+		698CE3622A1CB02C00164C31 /* StackDemo3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackDemo3View.swift; sourceTree = "<group>"; };
+		698CE3A22A205AC700164C31 /* ButtonDemoView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemoView2.swift; sourceTree = "<group>"; };
+		698CE3A42A20654300164C31 /* PosterViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewButton.swift; sourceTree = "<group>"; };
+		698CE3A62A206FFE00164C31 /* CustomCardButtonTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardButtonTV.swift; sourceTree = "<group>"; };
+		698CE3AA2A2087BD00164C31 /* CustomButtonTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonTV.swift; sourceTree = "<group>"; };
 		699DCD2A29C9735D0059C54E /* ScrollDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDemoView.swift; sourceTree = "<group>"; };
 		699DCD3B29C999EC0059C54E /* ChangeColorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorDemoView.swift; sourceTree = "<group>"; };
 		699DCD7129CAB30E0059C54E /* AlertDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDemoView.swift; sourceTree = "<group>"; };
@@ -245,7 +257,11 @@
 			isa = PBXGroup;
 			children = (
 				002AF3092A151427008CE342 /* ButtonDemoView.swift */,
+				698CE3A22A205AC700164C31 /* ButtonDemoView2.swift */,
 				002AF30A2A151427008CE342 /* RoundButton.swift */,
+				698CE3A42A20654300164C31 /* PosterViewButton.swift */,
+				698CE3A62A206FFE00164C31 /* CustomCardButtonTV.swift */,
+				698CE3AA2A2087BD00164C31 /* CustomButtonTV.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -468,6 +484,7 @@
 			children = (
 				6948E45029C1A54C00F24D43 /* StackDemoView.swift */,
 				6948E4D629C475D000F24D43 /* StackDemo2View.swift */,
+				698CE3622A1CB02C00164C31 /* StackDemo3View.swift */,
 			);
 			path = stack;
 			sourceTree = "<group>";
@@ -543,6 +560,7 @@
 			children = (
 				694AF5D629E681F10059D095 /* TextFeildDemoView.swift */,
 				00A12A332A1686020010D9C9 /* TextFeildDemoView2.swift */,
+				692480172A19616800FCD498 /* TextFeildDemoView3.swift */,
 			);
 			path = textFeild;
 			sourceTree = "<group>";
@@ -889,6 +907,7 @@
 				699DCD8829CAE5C00059C54E /* MapView.swift in Sources */,
 				6948E4D529C44A6B00F24D43 /* ButtonDemoViewExtension.swift in Sources */,
 				694AF5D729E681F10059D095 /* TextFeildDemoView.swift in Sources */,
+				692480182A19616800FCD498 /* TextFeildDemoView3.swift in Sources */,
 				694F1B8A29CD9E8700FDA383 /* NotificationDemoView.swift in Sources */,
 				5B6E84A2248A4B3800F1648C /* AppDelegate.swift in Sources */,
 				5BB7B465248F405B0070CDEB /* CircleImage.swift in Sources */,
@@ -903,6 +922,7 @@
 				699DCD7F29CAE2300059C54E /* PopoverDemoView.swift in Sources */,
 				6948E45129C1A54C00F24D43 /* StackDemoView.swift in Sources */,
 				6948E50129C857B500F24D43 /* AppUtils.swift in Sources */,
+				698CE3632A1CB02C00164C31 /* StackDemo3View.swift in Sources */,
 				694F1CC229D42C4C00FDA383 /* ListDemoView3.swift in Sources */,
 				69247FC72A1365D900FCD498 /* DialogDemoView.swift in Sources */,
 				699DCD7C29CAE1DE0059C54E /* SheetDemoView.swift in Sources */,
@@ -941,10 +961,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698CE3AB2A2087BD00164C31 /* CustomButtonTV.swift in Sources */,
 				002AF30C2A151427008CE342 /* RoundButton.swift in Sources */,
 				69E44B3D2A088AC800A2B4A8 /* LoginViewTV.swift in Sources */,
 				69E44AF72A04DF8200A2B4A8 /* ViewController.swift in Sources */,
 				002AF30B2A151427008CE342 /* ButtonDemoView.swift in Sources */,
+				698CE3A52A20654300164C31 /* PosterViewButton.swift in Sources */,
 				69247FDA2A13734300FCD498 /* ContentView.swift in Sources */,
 				69E44B582A0A37D300A2B4A8 /* CustomButton.swift in Sources */,
 				69E44B052A04DFDF00A2B4A8 /* MoreViewTV.swift in Sources */,
@@ -953,6 +975,8 @@
 				69247FE82A13816200FCD498 /* FocusScopeDemoView.swift in Sources */,
 				69E44B072A04E3C700A2B4A8 /* MoreViewTV2.swift in Sources */,
 				69E44AF52A04DF8200A2B4A8 /* AppDelegate.swift in Sources */,
+				698CE3A32A205AC700164C31 /* ButtonDemoView2.swift in Sources */,
+				698CE3A72A206FFE00164C31 /* CustomCardButtonTV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

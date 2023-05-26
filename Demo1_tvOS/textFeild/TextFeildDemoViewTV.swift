@@ -24,10 +24,25 @@ struct TextFeildDemoViewTV: View {
           TextField("Username", text: $username)
               .focused($focusedField, equals: .username)
               .frame(height: 200)
-          
+              .background(Color.red)
+//              .font(Font(UIFont.systemFont(ofSize: 100)))
+              .padding()
+
+        TextField("Username", text: $username)
+            .focused($focusedField, equals: .username)
+            .frame(height: 200)
+            .background(Color.red)
+//              .font(Font(UIFont.systemFont(ofSize: 100)))
+            .padding()
+            .textFieldStyle(.automatic)
+        
           SecureField("Password", text: $password)
               .focused($focusedField, equals: .password)
               .frame(height: 200)
+              .background(Color.red)
+              .padding()
+              .textFieldStyle(.plain)
+
 
       }
       .defaultFocus($focusedField, .password)

@@ -45,6 +45,7 @@ struct ContentView: View {
     
     AnyView(StackDemoView()),
     AnyView(StackDemo2View()),
+    AnyView(StackDemo3View()),
     
     AnyView(ListDemoView()),
     AnyView(ListDemoView2()),
@@ -135,7 +136,8 @@ struct ContentView: View {
     
     "StackDemoView",
     "StackDemo2View",
-    
+    "StackDemo3View",
+
     "ListDemoView",
     "ListDemoView2",
     "ListHideSeparatorDemoView",

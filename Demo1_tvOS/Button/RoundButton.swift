@@ -19,7 +19,7 @@ struct RoundButton: View {
                     .foregroundColor(isFocused ? Color.black : Color.white)
                     .font(.headline)
                     .padding(25)
-                    .background(isFocused ? Color.white : Color.gray)
+                    .background(isFocused ? Color.blue : Color.black)
                     .clipShape(Circle())
                     .shadow(radius: isFocused ? 20 : 0, x: 0, y: isFocused ? 20 : 0)
             }

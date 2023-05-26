@@ -86,3 +86,45 @@ struct BaseButton: View {
       .buttonStyle(BaseButtonStyle(isEnabled: isEnabled, primary: primary))
   }
 }
+
+struct BaseButton2: View {
+  private var title: String = ""
+  private var action: () -> Void = {}
+  private var primary: Bool = false
+  private var textColor: Color = .white
+  private var backgroundColor: Color = .black
+  private var font: Font = Font.system(size: 16, weight: .bold, design: .default)
+  private var height: CGFloat = 50
+  private var cornerRadius: CGFloat = 5
+
+//  init(title: String, action: @escaping () -> Void, primary: Bool = false) {
+//
+//    if primary {
+//      self.title = title
+//      self.action = action
+//      self.primary = true
+//      self.textColor = Color.white
+//      self.backgroundColor = Color.red
+//    } else {
+//      self.title = title
+//      self.action = action
+//      self.primary = false
+//      self.textColor = Color.black
+//      self.backgroundColor = Color.white
+//    }
+//  }
+
+  var body: some View {
+    
+    Button(action: self.action) {
+      Text(title)
+        .foregroundColor(textColor)
+    }
+    .frame(maxWidth: .infinity)
+    .frame(height: height)
+    .background(backgroundColor)
+    .cornerRadius(cornerRadius)
+    .font(font)
+
+  }
+}
