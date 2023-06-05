@@ -11,9 +11,11 @@ import SwiftUI
 @available(iOS 15.0, *)
 struct ContentView: View {
   let destinations: [AnyView] = [
+        
     
-    AnyView(TupleDemoView()),
+    AnyView(GestureDemoView()),
 
+    AnyView(TupleDemoView()),
     
     AnyView(DragDemoView(title: "aadad")),
     AnyView(DragDemoView2()),
@@ -63,7 +65,8 @@ struct ContentView: View {
     AnyView(ScrollDemoView2()),
     AnyView(ScrollDemoView3()),
     AnyView(ScrollDemoView4()),
-    
+    AnyView(ScrollViewDemoView()),
+
     AnyView(GroupDemoView()),
     
     AnyView(PushDemoView()),
@@ -104,6 +107,8 @@ struct ContentView: View {
       ]
   
   let textArray: [String] = [
+    
+    "GestureDemoView",
     "TupleDemoView",
     
     "DragDemoView",
@@ -154,7 +159,8 @@ struct ContentView: View {
     "ScrollDemoView2",
     "ScrollDemoView3",
     "ScrollDemoView4",
-    
+    "ScrollViewDemoView",
+
     "GroupDemoView",
     
     "PushDemoView",

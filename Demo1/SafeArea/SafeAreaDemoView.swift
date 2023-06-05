@@ -10,19 +10,20 @@ import SwiftUI
 
 struct SafeAreaDemoView: View {
   var body: some View {
-          VStack {
-              Text("Hello, World!")
-                  .padding()
-                  .background(Color.blue)
-                  .foregroundColor(.white)
-                  .cornerRadius(10)
-                  .padding(.top, 150)
-              
-              Spacer()
+          ZStack {
+//            Color.gray
+//              .frame(maxWidth: .infinity, maxHeight: .infinity)
+//              .ignoresSafeArea()
+//
+//            Color.blue
+//              .ignoresSafeArea(.all, edges: .vertical)
+//              .frame(maxWidth: .infinity, maxHeight: .infinity)
+
+
           }
           .frame(maxWidth: .infinity, maxHeight: .infinity)
           .background(Color.yellow)
-          .ignoresSafeArea(.keyboard, edges: .all)
+//          .ignoresSafeArea(edges: .all)
       }
 }
 
