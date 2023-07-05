@@ -17,6 +17,9 @@ struct NetworkImage: View {
       } placeholder: {
         ProgressView()
       }
+      .scaledToFit()
+      .aspectRatio(contentMode: .fit)
+
     } else {
       // Fallback on earlier versions
     }

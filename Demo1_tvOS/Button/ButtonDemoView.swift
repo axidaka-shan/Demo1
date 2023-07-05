@@ -44,9 +44,9 @@ struct ButtonDemoView: View {
                 .frame(width: 300, height: 100)
                     .buttonStyle(.card)
               
-              CustomCardButtonTV()
-              
-              CustomButtonTV()
+              CustomCardButtonTV(text: "CustomCardButtonTV", style: .card)
+
+              CustomButtonTV(text: "CustomButtonTV")
             }
             
             HStack {

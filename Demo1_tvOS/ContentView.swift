@@ -12,13 +12,16 @@ struct ContentView: View {
   let destinations: [AnyView] = [
     
     AnyView(ButtonDemoView()),
+    AnyView(ButtonDemoView2()),
 
+    AnyView(FocusDemoView()),
+    AnyView(FocusDemoView2()),
     AnyView(FocusSectionDemoView()),
-    
     AnyView(FocusScopeDemoView()),
     
     AnyView(TextFeildDemoViewTV()),
-    
+    AnyView(TextFeildDemoViewTV2()),
+
     AnyView(LoginViewTV()),
     
     AnyView(MoreViewTV()),
@@ -29,13 +32,16 @@ struct ContentView: View {
   let textArray: [String] = [
     
     "ButtonDemoView",
-    
+    "ButtonDemoView2",
+
+    "FocusDemoView",
+    "FocusDemoView2",
     "FocusSectionDemoView",
-    
     "FocusScopeDemoView",
 
 
     "TextFeildDemoViewTV",
+    "TextFeildDemoViewTV2",
     
     "LoginViewTV",
     

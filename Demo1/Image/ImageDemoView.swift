@@ -14,8 +14,9 @@ struct ImageDemoView: View {
       VStack {
         Spacer()
 
-        NetworkImage(url: URL(string: "https://example.com/image.jpg")!)
-
+        NetworkImage(url: URL(string: "https://hummingbird-ott.s3.amazonaws.com/images/logos/MarqueeGuest.png")!)
+          .frame(height: 20)
+          .frame(maxWidth: 350)
         Spacer()
         
         NetworkImage(url: URL(string: "https://neulion-a.akamaihd.net/nlmobile/wnba/logos/ATL_50.png?v=11.0511")!)
@@ -43,6 +44,7 @@ struct ImageDemoView: View {
           // Fallback on earlier versions
         }
       }
+      .background(Color.black)
     }
 }
 

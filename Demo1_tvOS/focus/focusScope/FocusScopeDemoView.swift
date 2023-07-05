@@ -9,32 +9,21 @@
 import SwiftUI
 
 struct FocusScopeDemoView: View {
-  @Namespace private var namespace
-  
+  @Namespace var mainNamespace
+  @Environment(\.resetFocus) var resetFocus
+
+
   var body: some View {
       VStack {
-        VStack {
-          Text("Hello, world!")
-          Button("Toggle") {
-              withAnimation {
-                  // Toggle some state variable
-              }
+          Button ("1") {}
+          Button ("2") {}
+          Button ("3") {}
+              .prefersDefaultFocus(in: mainNamespace)
+          Button ("Reset to default focus") {
+              resetFocus(in: mainNamespace)
           }
-        }
-        
-        VStack {
-          Text("Hello, world!2222")
-              .matchedGeometryEffect(id: "text", in: namespace)
-          
-          Button("Toggle2222") {
-              withAnimation {
-                  // Toggle some state variable
-              }
-          }
-          .focusScope(namespace)
-        }
-          
       }
+      .focusScope(mainNamespace)
   }
 }
 

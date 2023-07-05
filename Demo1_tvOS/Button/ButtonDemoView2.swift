@@ -10,7 +10,17 @@ import SwiftUI
 
 struct ButtonDemoView2: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      VStack(spacing: 30) {
+        CustomCardButtonTV(text: "Custom Card", style: .card)
+        CustomCardButtonTV(text: "Custom default", style: .automatic)
+        CustomCardButtonTV(text: "Custom plain", style: .plain)
+        CustomCardButtonTV(text: "Custom bordered", style: .bordered)
+        CustomCardButtonTV(text: "Custom borderedProminent", style: .borderedProminent)
+
+        CustomButtonTV(text: "CustomButtonTV")
+
+      }
+      .padding()
     }
 }
 

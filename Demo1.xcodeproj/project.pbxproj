@@ -65,6 +65,11 @@
 		6948E50C29C8609F00F24D43 /* DatePickerDemo4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6948E50B29C8609F00F24D43 /* DatePickerDemo4View.swift */; };
 		694AF5D729E681F10059D095 /* TextFeildDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AF5D629E681F10059D095 /* TextFeildDemoView.swift */; };
 		694AF60B29E7E0D40059D095 /* TimerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AF60A29E7E0D40059D095 /* TimerDemoView.swift */; };
+		694B9DDE2A52774F00B82D25 /* AnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B9DDD2A52774F00B82D25 /* AnimationDemoView.swift */; };
+		694B9DE02A527AC100B82D25 /* FocusDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B9DDF2A527AC100B82D25 /* FocusDemoView.swift */; };
+		694B9DE22A527C1E00B82D25 /* FocusDemoView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B9DE12A527C1E00B82D25 /* FocusDemoView2.swift */; };
+		694B9DE42A52BCF400B82D25 /* TextFeildDemoView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B9DE32A52BCF400B82D25 /* TextFeildDemoView4.swift */; };
+		694B9DE62A52BED700B82D25 /* TextFeildDemoViewTV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B9DE52A52BED700B82D25 /* TextFeildDemoViewTV2.swift */; };
 		694F1ADB29CB0C4600FDA383 /* ListHideSeparatorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F1ADA29CB0C4600FDA383 /* ListHideSeparatorDemoView.swift */; };
 		694F1B0229CC320200FDA383 /* VGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F1B0129CC320200FDA383 /* VGridDemoView.swift */; };
 		694F1B0429CC321000FDA383 /* HGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F1B0329CC321000FDA383 /* HGridDemoView.swift */; };
@@ -94,6 +99,8 @@
 		698CE3AB2A2087BD00164C31 /* CustomButtonTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3AA2A2087BD00164C31 /* CustomButtonTV.swift */; };
 		698CE3D72A2371A400164C31 /* ShapeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3D62A2371A400164C31 /* ShapeDemoView.swift */; };
 		698CE3D92A23E17A00164C31 /* ShapeDemoView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CE3D82A23E17A00164C31 /* ShapeDemoView2.swift */; };
+		699484392A317A0A00F6D89C /* EnvironmentDemoView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699484382A317A0A00F6D89C /* EnvironmentDemoView2.swift */; };
+		6994843B2A31888C00F6D89C /* EnvironmentDemoView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994843A2A31888C00F6D89C /* EnvironmentDemoView3.swift */; };
 		699DCD2B29C9735D0059C54E /* ScrollDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DCD2A29C9735D0059C54E /* ScrollDemoView.swift */; };
 		699DCD3C29C999EC0059C54E /* ChangeColorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DCD3B29C999EC0059C54E /* ChangeColorDemoView.swift */; };
 		699DCD7229CAB30E0059C54E /* AlertDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DCD7129CAB30E0059C54E /* AlertDemoView.swift */; };
@@ -185,6 +192,11 @@
 		6948E50B29C8609F00F24D43 /* DatePickerDemo4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDemo4View.swift; sourceTree = "<group>"; };
 		694AF5D629E681F10059D095 /* TextFeildDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeildDemoView.swift; sourceTree = "<group>"; };
 		694AF60A29E7E0D40059D095 /* TimerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDemoView.swift; sourceTree = "<group>"; };
+		694B9DDD2A52774F00B82D25 /* AnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoView.swift; sourceTree = "<group>"; };
+		694B9DDF2A527AC100B82D25 /* FocusDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusDemoView.swift; sourceTree = "<group>"; };
+		694B9DE12A527C1E00B82D25 /* FocusDemoView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusDemoView2.swift; sourceTree = "<group>"; };
+		694B9DE32A52BCF400B82D25 /* TextFeildDemoView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeildDemoView4.swift; sourceTree = "<group>"; };
+		694B9DE52A52BED700B82D25 /* TextFeildDemoViewTV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeildDemoViewTV2.swift; sourceTree = "<group>"; };
 		694F1ADA29CB0C4600FDA383 /* ListHideSeparatorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHideSeparatorDemoView.swift; sourceTree = "<group>"; };
 		694F1B0129CC320200FDA383 /* VGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGridDemoView.swift; sourceTree = "<group>"; };
 		694F1B0329CC321000FDA383 /* HGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGridDemoView.swift; sourceTree = "<group>"; };
@@ -214,6 +226,8 @@
 		698CE3AA2A2087BD00164C31 /* CustomButtonTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonTV.swift; sourceTree = "<group>"; };
 		698CE3D62A2371A400164C31 /* ShapeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeDemoView.swift; sourceTree = "<group>"; };
 		698CE3D82A23E17A00164C31 /* ShapeDemoView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeDemoView2.swift; sourceTree = "<group>"; };
+		699484382A317A0A00F6D89C /* EnvironmentDemoView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentDemoView2.swift; sourceTree = "<group>"; };
+		6994843A2A31888C00F6D89C /* EnvironmentDemoView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentDemoView3.swift; sourceTree = "<group>"; };
 		699DCD2A29C9735D0059C54E /* ScrollDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDemoView.swift; sourceTree = "<group>"; };
 		699DCD3B29C999EC0059C54E /* ChangeColorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorDemoView.swift; sourceTree = "<group>"; };
 		699DCD7129CAB30E0059C54E /* AlertDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDemoView.swift; sourceTree = "<group>"; };
@@ -243,6 +257,7 @@
 		69E44B062A04E3C700A2B4A8 /* MoreViewTV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewTV2.swift; sourceTree = "<group>"; };
 		69E44B3C2A088AC800A2B4A8 /* LoginViewTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewTV.swift; sourceTree = "<group>"; };
 		69E44B572A0A37D300A2B4A8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		69FE64BB2A54335E0059A9A0 /* Demo1-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Demo1-tvOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +320,7 @@
 		5B6E84A0248A4B3800F1648C /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				694B9DDC2A52773000B82D25 /* animation */,
 				69AC61962A2BB70800555D4E /* gesture */,
 				698CE3D52A23718B00164C31 /* shape */,
 				002AF30D2A152206008CE342 /* TupleView */,
@@ -390,6 +406,7 @@
 			isa = PBXGroup;
 			children = (
 				69247FCE2A136DCB00FCD498 /* TextFeildDemoViewTV.swift */,
+				694B9DE52A52BED700B82D25 /* TextFeildDemoViewTV2.swift */,
 			);
 			path = textFeild;
 			sourceTree = "<group>";
@@ -408,6 +425,8 @@
 			isa = PBXGroup;
 			children = (
 				69247FE42A137F8C00FCD498 /* EnvironmentDemoView.swift */,
+				699484382A317A0A00F6D89C /* EnvironmentDemoView2.swift */,
+				6994843A2A31888C00F6D89C /* EnvironmentDemoView3.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -423,6 +442,8 @@
 		69247FE92A138CBB00FCD498 /* focus */ = {
 			isa = PBXGroup;
 			children = (
+				694B9DDF2A527AC100B82D25 /* FocusDemoView.swift */,
+				694B9DE12A527C1E00B82D25 /* FocusDemoView2.swift */,
 				69247FEA2A138CC800FCD498 /* focusSection */,
 				69247FE62A13813900FCD498 /* focusScope */,
 			);
@@ -575,8 +596,17 @@
 				694AF5D629E681F10059D095 /* TextFeildDemoView.swift */,
 				00A12A332A1686020010D9C9 /* TextFeildDemoView2.swift */,
 				692480172A19616800FCD498 /* TextFeildDemoView3.swift */,
+				694B9DE32A52BCF400B82D25 /* TextFeildDemoView4.swift */,
 			);
 			path = textFeild;
+			sourceTree = "<group>";
+		};
+		694B9DDC2A52773000B82D25 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				694B9DDD2A52774F00B82D25 /* AnimationDemoView.swift */,
+			);
+			path = animation;
 			sourceTree = "<group>";
 		};
 		694F1B0029CC31E700FDA383 /* Grid */ = {
@@ -762,6 +792,7 @@
 		69E44AF32A04DF8200A2B4A8 /* Demo1_tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				69FE64BB2A54335E0059A9A0 /* Demo1-tvOS-Info.plist */,
 				002AF3082A151427008CE342 /* Button */,
 				69247FE92A138CBB00FCD498 /* focus */,
 				69247FD82A1372C700FCD498 /* textFeild */,
@@ -903,9 +934,11 @@
 				694583E82A0E2B3E00DC4325 /* DismissableTextField.swift in Sources */,
 				002AF30F2A152239008CE342 /* TupleDemoView.swift in Sources */,
 				694F1BFB29D1983E00FDA383 /* NormalTextView.swift in Sources */,
+				699484392A317A0A00F6D89C /* EnvironmentDemoView2.swift in Sources */,
 				699DCD8629CAE3510059C54E /* UIAlertControllerExtension.swift in Sources */,
 				699DCD8F29CAE9190059C54E /* ListDemoView.swift in Sources */,
 				694F1B0229CC320200FDA383 /* VGridDemoView.swift in Sources */,
+				694B9DE42A52BCF400B82D25 /* TextFeildDemoView4.swift in Sources */,
 				6906BE1D2A28A3EC00AE06EB /* ScrollViewDemoView.swift in Sources */,
 				694583E72A0E2B3E00DC4325 /* SecureTextField.swift in Sources */,
 				699DCD8C29CAE65C0059C54E /* MapDemoView.swift in Sources */,
@@ -946,6 +979,7 @@
 				5B6E84A2248A4B3800F1648C /* AppDelegate.swift in Sources */,
 				5BB7B465248F405B0070CDEB /* CircleImage.swift in Sources */,
 				69247F892A10D4CA00FCD498 /* FrameDemoView2.swift in Sources */,
+				694B9DDE2A52774F00B82D25 /* AnimationDemoView.swift in Sources */,
 				69BD4C092A0BA13A00AC33F0 /* LabelDemoView.swift in Sources */,
 				69AC61982A2BB73500555D4E /* GestureDemoView.swift in Sources */,
 				694F1B0429CC321000FDA383 /* HGridDemoView.swift in Sources */,
@@ -962,6 +996,7 @@
 				694F1CC229D42C4C00FDA383 /* ListDemoView3.swift in Sources */,
 				69247FC72A1365D900FCD498 /* DialogDemoView.swift in Sources */,
 				699DCD7C29CAE1DE0059C54E /* SheetDemoView.swift in Sources */,
+				6994843B2A31888C00F6D89C /* EnvironmentDemoView3.swift in Sources */,
 				6948E4F229C8438F00F24D43 /* ToggleDemoView.swift in Sources */,
 				699DCD3C29C999EC0059C54E /* ChangeColorDemoView.swift in Sources */,
 				694F1CBA29D3DCC200FDA383 /* TextDemoView2.swift in Sources */,
@@ -1000,9 +1035,11 @@
 				698CE3AB2A2087BD00164C31 /* CustomButtonTV.swift in Sources */,
 				002AF30C2A151427008CE342 /* RoundButton.swift in Sources */,
 				69E44B3D2A088AC800A2B4A8 /* LoginViewTV.swift in Sources */,
+				694B9DE62A52BED700B82D25 /* TextFeildDemoViewTV2.swift in Sources */,
 				69E44AF72A04DF8200A2B4A8 /* ViewController.swift in Sources */,
 				002AF30B2A151427008CE342 /* ButtonDemoView.swift in Sources */,
 				698CE3A52A20654300164C31 /* PosterViewButton.swift in Sources */,
+				694B9DE02A527AC100B82D25 /* FocusDemoView.swift in Sources */,
 				69247FDA2A13734300FCD498 /* ContentView.swift in Sources */,
 				69E44B582A0A37D300A2B4A8 /* CustomButton.swift in Sources */,
 				69E44B052A04DFDF00A2B4A8 /* MoreViewTV.swift in Sources */,
@@ -1013,6 +1050,7 @@
 				69E44AF52A04DF8200A2B4A8 /* AppDelegate.swift in Sources */,
 				698CE3A32A205AC700164C31 /* ButtonDemoView2.swift in Sources */,
 				698CE3A72A206FFE00164C31 /* CustomCardButtonTV.swift in Sources */,
+				694B9DE22A527C1E00B82D25 /* FocusDemoView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1210,9 +1248,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo1-tvOS-Info.plist";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1238,9 +1277,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo1-tvOS-Info.plist";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

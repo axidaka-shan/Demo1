@@ -24,7 +24,7 @@ struct TextDemoView: View {
         
         Group {
           // 布局的时候，是自下而上的。
-          Text("Hello, World!")
+          Text("111Hello, World!")
                       .frame(width: 350, height: 100)
                       .background(Color.green)
                       .frame(width: 300, height: 200)
@@ -32,14 +32,14 @@ struct TextDemoView: View {
         }
         
         VStack {
-          Text("Hello, World!nadasdsadadasdadadasda\ndadadaszczcvzvzxv")
+          Text("22Hello, World!nadasdsadadasdadadasda\ndadadaszczcvzvzxv")
             .lineLimit(1)
             .frame(width: 100)
             .font(.title)
 
           Spacer().frame(height: 20)
 
-          Text("这个文本还挺长的，到达了一定字数后，就超过了一行的显示范围了！！！")
+          Text("33这个文本还挺长的，到达了一定字数后，就超过了一行的显示范围了！！！")
             .border(Color.blue)
             .frame(width: 200, height: 100)
             .border(Color.green)
@@ -47,7 +47,7 @@ struct TextDemoView: View {
 
           Spacer().frame(height: 20)
           
-          Text("这个文本还挺长的，到达了一定字数后，就超过了一行的显示范围了！！！")
+          Text("4这个文本还挺长的，到达了一定字数后，就超过了一行的显示范围了！！！")
             .fixedSize(horizontal: true, vertical: false)
             .border(Color.blue)
             .frame(width: 200, height: 100)
@@ -56,7 +56,7 @@ struct TextDemoView: View {
           
           Spacer().frame(height: 20)
           
-          Text("这个文本还挺长的，到达了一定字数后，就超过了一行的显示范围了！！！")
+          Text("5这个文本还挺长的，到达了一定字数后，就超过了一行的显示范围了！！！")
             .frame(idealWidth: 300)
             .fixedSize(horizontal: true, vertical: false)
             .border(Color.blue)

@@ -19,8 +19,15 @@ import SwiftUI
 
 struct EnvironmentDemoView: View {
     var body: some View {
+      
+      VStack {
         MyView()
         .colorScheme(.dark)
+      
+        MyView()
+      
+      }
+      
     }
 }
 

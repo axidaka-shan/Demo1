@@ -12,7 +12,10 @@ import SwiftUI
 struct ContentView: View {
   let destinations: [AnyView] = [
         
+    AnyView(EnvironmentDemoView3().environmentObject(MyEnvironmentObject())),
     
+    AnyView(EnvironmentDemoView3ChildView().environmentObject(MyEnvironmentObject())),
+
     AnyView(GestureDemoView()),
 
     AnyView(TupleDemoView()),
@@ -42,6 +45,8 @@ struct ContentView: View {
     
     AnyView(TextFeildDemoView()),
     AnyView(TextFeildDemoView2()),
+    AnyView(TextFeildDemoView3()),
+    AnyView(TextFeildDemoView4()),
 
     AnyView(TextViewDemoView()),
     
@@ -107,6 +112,8 @@ struct ContentView: View {
       ]
   
   let textArray: [String] = [
+    "EnvironmentDemoView3",
+    "EnvironmentDemoView3ChildView",
     
     "GestureDemoView",
     "TupleDemoView",
@@ -136,6 +143,8 @@ struct ContentView: View {
     
     "TextFeildDemoView",
     "TextFeildDemoView2",
+    "TextFeildDemoView3",
+    "TextFeildDemoView4",
 
     "TextViewDemoView",
     
